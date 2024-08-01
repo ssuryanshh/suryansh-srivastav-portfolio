@@ -52,16 +52,16 @@ function Home() {
         </p>
 
         <div className="social-icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/srivastavsuryansh/">
             <FaLinkedin />
           </a>
-          <a href="#">
+          <a href="https://github.com/ssuryanshh">
             <FaGithub />
           </a>
-          <a href="#">
+          <a href="https://mail.google.com/">
             <FaEnvelope />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <FaInstagram />
           </a>
         </div>
