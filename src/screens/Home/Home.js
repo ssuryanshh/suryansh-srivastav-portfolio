@@ -34,7 +34,7 @@ function Home() {
 
     const timeoutId = setTimeout(type, isDeleting ? typeSpeed / 2 : typeSpeed);
     return () => clearTimeout(timeoutId);
-  }, [charIndex, isDeleting, texts, index, setIndex, setCurrentText, setIsDeleting]);
+  }, [charIndex, isDeleting, texts, index, setIndex, setCurrentText, setIsDeleting,type]);
 
   return (
     <div className="home">
