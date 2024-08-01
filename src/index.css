@@ -1,0 +1,27 @@
+:root {
+    --red-theme-background-color : #1f1d1d;
+    --red-theme-text-color : #f7f7f7;
+    --red-theme-main-color : #ff0000;
+    --red-theme-nav-background-color : #181818;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html { 
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    background-color: var(--red-theme-background-color);
+    height: 100%;
+}
+
+#root{
+    height: 100%;
+}
