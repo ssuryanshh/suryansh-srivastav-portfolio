@@ -1,7 +1,7 @@
 :root {
     --red-theme-background-color : #1f1d1d;
     --red-theme-text-color : #f7f7f7;
-    --red-theme-main-color : #ff0000;
+    --red-theme-main-color : #e04503dc;
     --red-theme-nav-background-color : #181818;
 }
 
@@ -19,7 +19,6 @@ html {
 
 body{
     background-color: var(--red-theme-background-color);
-    height: 100%;
 }
 
 #root{
