@@ -20,14 +20,14 @@ const data = [
       label: "EDUCATION",
       to: "/education",
     },
-    {
-      label: "PROJECTS",
-      to: "/projects",
-    },
-    {
-      label: "CONTACT",
-      to: "/contact",
-    },
+    // {
+    //   label: "PROJECTS",
+    //   to: "/projects",
+    // },
+    // {
+    //   label: "CONTACT",
+    //   to: "/contact",
+    // },
   ];
 function Navbar() {
     const [toggleIcon,setToggleIcon] = useState(false)
