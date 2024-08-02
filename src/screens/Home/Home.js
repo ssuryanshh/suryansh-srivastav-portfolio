@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './style.scss';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import imageSrc from '../../assets/self.jpg';
 
 const Home = () => {
