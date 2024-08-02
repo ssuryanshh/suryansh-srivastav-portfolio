@@ -46,7 +46,7 @@ function About() {
           <Animate
           play
           duration={1.5}
-          delay={0.5}
+          delay={0}
           start={{
             transform:"translateX(-900px)",
           }}
