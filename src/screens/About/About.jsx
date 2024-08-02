@@ -24,11 +24,11 @@ const personalDetails = [
   },
   {
     label: "LinkedIn",
-    value: "jnhbgf",
+    value: "https://www.linkedin.com/in/srivastavsuryansh/",
   },
   {
     label: "GitHub",
-    value: "nhbgfv"
+    value: "https://github.com/ssuryanshh"
   }
 ];
 
