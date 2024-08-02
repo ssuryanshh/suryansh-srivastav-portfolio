@@ -46,8 +46,6 @@ const Home = () => {
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/srivastavsuryansh/"><FaLinkedin /></a>
           <a href="https://github.com/ssuryanshh"><FaGithub /></a>
-          <a href="https://mail.google.com/"><FaEnvelope /></a>
-          <a href="https://www.instagram.com/"><FaInstagram /></a>
         </div>
         <div className="btn-grp">
           <button className="hire">Hire</button>
