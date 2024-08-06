@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="btn-grp">
         <a href="mailto:srivastav.suryansh19@gmail.com"><button className="hire">Hire</button></a>        
-        <a href="https://res.cloudinary.com/dg6yoc2r4/image/upload/v1722920336/CV/jz8irc6oi6xc7e73teag.pdf"><button className="cv">Download CV</button></a>
+        <a href="https://res.cloudinary.com/dg6yoc2r4/image/upload/v1722937089/CV/mvw4jkax79ku2yjjgdax.pdf"><button className="cv">Download CV</button></a>
         </div>
       </div>
       <div className="home-img" style={{ position: 'relative', zIndex: 1 }}>
