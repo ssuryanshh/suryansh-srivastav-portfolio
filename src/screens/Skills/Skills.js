@@ -1,5 +1,6 @@
 import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
+import { Animate } from "react-simple-animate";
 import styled from "styled-components";
 import skills from "../../utils/Skills";
 
@@ -85,9 +86,8 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: var(   --red-theme-text-color);
-  border: 1px solid var(   --red-theme-main-color);
-
+  color: var(--red-theme-text-color);
+  border: 1px solid var(--red-theme-main-color);
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -109,9 +109,14 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
-
-
 function Skills() {
+  const positions = [
+    "translateY(-100px)",
+    "translateY(100px)",
+    "translateX(-100px)",
+    "translateX(100px)"
+  ];
+
   return (
     <div>
       <PageHeader headerText="My Skill Set" />
@@ -120,21 +125,45 @@ function Skills() {
           <Desc>
             Here are some of my technical skills on which I have been working on for the past 4 years.
           </Desc>
-          <SkillsContainer>
-            {skills.map((skill, index) => (
-              <Skill key={index}>
+          <Animate 
+          play
+          duration={1}
+          delay={0}
+          start={{
+            transform:"translateY(900px)"
+          }}
+          end={{
+            transform: "translateY(0px)"
+          }}>
+            <SkillsContainer>
+            {skills.map((skill, skillIndex) => (
+              <Skill key={skillIndex}>
                 <SkillTitle>{skill.title}</SkillTitle>
                 <SkillList>
-                  {skill.skills.map((item, index) => (
-                    <SkillItem key={index}>
-                      <SkillImage src={item.image} alt={item.name} />
-                      {item.name}
-                    </SkillItem>
+                  {skill.skills.map((item, itemIndex) => (
+                    <Animate
+                      key={itemIndex}
+                      play
+                      duration={1.4}
+                      delay={0.4}
+                      start={{
+                        transform: positions[itemIndex % positions.length]
+                      }}
+                      end={{
+                        transform: "translateY(0)"
+                      }}
+                    >
+                      <SkillItem>
+                        <SkillImage src={item.image} alt={item.name} />
+                        {item.name}
+                      </SkillItem>
+                    </Animate>
                   ))}
                 </SkillList>
               </Skill>
             ))}
           </SkillsContainer>
+          </Animate>
         </Wrapper>
       </Container>
     </div>
