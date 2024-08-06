@@ -46,9 +46,9 @@ function Navbar() {
     <div>
       <nav className='navbar'>
         <div className='navbar__container'>
-          <Link to={'/'} className='navbar__container__main' onClick={closeMenu}>
+          <div className='navbar__container__main'>
             <h2>SURYANSH SRIVASTAV</h2>
-          </Link>
+          </div>
         </div>
         <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`}>
           {data.map((item, key) => (

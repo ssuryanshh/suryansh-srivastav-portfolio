@@ -20,7 +20,7 @@ const personalDetails = [
   },
   {
     label: "Email",
-    value: "suryansh.s@outook.com",
+    value: "srivastav.suryansh19@gmail.com",
   },
   {
     label: "LinkedIn",

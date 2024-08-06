@@ -48,8 +48,8 @@ const Home = () => {
           <a href="https://github.com/ssuryanshh"><FaGithub /></a>
         </div>
         <div className="btn-grp">
-          <button className="hire">Hire</button>
-          <button className="cv">Download CV</button>
+        <a href="mailto:srivastav.suryansh19@gmail.com"><button className="hire">Hire</button></a>        
+        <a href="https://res.cloudinary.com/dg6yoc2r4/image/upload/v1722920336/CV/jz8irc6oi6xc7e73teag.pdf"><button className="cv">Download CV</button></a>
         </div>
       </div>
       <div className="home-img" style={{ position: 'relative', zIndex: 1 }}>
